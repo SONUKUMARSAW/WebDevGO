@@ -1,0 +1,15 @@
+<html>
+<head><title>Document</title></head>
+<body>
+<h1>Composite Data</h1>
+<ul>
+    {{range .}}
+    <li>{{.Name}}}</li>
+        <ul>
+            <li>{{.Age}}<li>
+            <li>{{.Contact}}</li>
+        </ul>
+    {{end}}
+</ul>
+</body>
+</html>
